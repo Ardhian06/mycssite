@@ -1,0 +1,154 @@
+
+body{
+  color:#40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1{
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container{
+  background-color: #e4f9f5;
+  padding-top: 100px;
+  position: relative;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #e4e4e4;
+  border-width: 8px;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p{
+    line-height: 2;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+.middle-container{
+margin:100px 0;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.bottom-cloud{
+  position: absolute;
+  bottom:300px;
+  left:250px;
+}
+
+.top-cloud{
+  position: absolute;
+  right:300px;
+  top: 40px;
+}
+
+.profile{
+}
+
+.profile-pict{
+  width: 200px;
+}
+
+.skills{
+  margin-top:100px;
+}
+
+.skill-row{
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.web-img{
+  float: left;
+  margin-right: 30px;
+  width:25%;
+}
+
+.db-img{
+  float: right;
+  margin-left: 30px;
+  width:25%;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#11cdd4;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+	background-color:#11999e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.contact-me{
+  margin-top:100px;
+}
+
+.contact-message{
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.copyright-text{
+  color:#EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
